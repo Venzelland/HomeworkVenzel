@@ -31,6 +31,8 @@ export const HW2 = () => {
 
   // ❗ Массив с данными не трогаем!
 
+
+
   const users = {
     myFriends:[
       { id: 1, name: 'John', age: 25, address: { street: '123 Main St', city: 'New York' } },
@@ -49,11 +51,12 @@ export const HW2 = () => {
   let [currentUsers, setCurrentUsers] = useState<UsersObjectType>(users);
 
   const filterUsers = () => {
-    const filteredUsers: UserType[] = currentUsers.myFriends.filter(
+    const filteredUsers: UserType[] = users.myFriends.filter(
         (user) => user.address.city === 'Los Angeles'
     );
     setCurrentUsers({ myFriends: filteredUsers });
   };
+
 
   return (
     <div id={'hw02'}>
