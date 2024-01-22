@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/HomeworkVenzel/static/css/main.073c9b0a.css",
-    "main.js": "/HomeworkVenzel/static/js/main.0d706fe0.js",
+    "main.js": "/HomeworkVenzel/static/js/main.d6a99fe5.js",
     "static/js/787.177e23c2.chunk.js": "/HomeworkVenzel/static/js/787.177e23c2.chunk.js",
     "index.html": "/HomeworkVenzel/index.html",
     "main.073c9b0a.css.map": "/HomeworkVenzel/static/css/main.073c9b0a.css.map",
-    "main.0d706fe0.js.map": "/HomeworkVenzel/static/js/main.0d706fe0.js.map",
+    "main.d6a99fe5.js.map": "/HomeworkVenzel/static/js/main.d6a99fe5.js.map",
     "787.177e23c2.chunk.js.map": "/HomeworkVenzel/static/js/787.177e23c2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.0d706fe0.js"
+    "static/js/main.d6a99fe5.js"
   ]
 }
