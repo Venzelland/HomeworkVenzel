@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { UserList2 } from './UserList2';
 
+import ReactDOM from 'react-dom';
+
 export type AddressType = {
   street: string;
   city: string;
@@ -64,3 +66,45 @@ export const HW2 = () => {
     </div>
   );
 };
+
+
+
+
+
+
+
+
+
+
+
+function UsersList() {
+  const [users, setUsers] = useState<Array<string>>(["Bob", "Alex", "Ann"])
+  const getUser = (user: string) => <li>{user}</li>
+  console.log(typeof getUser)
+
+  return (
+      <main>
+        <h4>User list:</h4>
+        <ul>
+          {users.map(getUser)}
+        </ul>
+      </main>
+  )
+}
+
+ReactDOM.render(
+    <UsersList/>, document.getElementById('root')
+);
+// Что вернёт выражение: typeof getUser?
+
+
+
+
+
+
+
+
+
+
+
+
